@@ -97,6 +97,7 @@ namespace Space_Race
                 subTitleLabel.Text = $"Your final score was {player2Score}";
 
                 subTitleLabel.Text += "\nPress Space Bar to Start or Escape to Exit";
+                //insert sounds
 
             }
         }
