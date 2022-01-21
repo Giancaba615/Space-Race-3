@@ -46,12 +46,6 @@ namespace Space_Race
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-
-            timeLabel.Text = $"TimeLeft:{time}";
-            p1ScoreLabel.Text = $"Score:{player1Score}";
-            p2ScoreLabel.Text = $"Score:{player2Score}";
-
-
             if (gameState == "waiting")
 
             {
@@ -146,9 +140,9 @@ namespace Space_Race
 
                     {
 
-                        // GameInitialize();
+                        GameInitialize();
                      //   gameState = "running";
-                        gameLoop.Enabled = true;
+                        //gameLoop.Enabled = true;
                     }
 
                     break;
